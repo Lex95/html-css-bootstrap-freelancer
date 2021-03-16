@@ -19,10 +19,10 @@ header {
     background-color: darkslategray;
     color: white;
     height: 80px;
-    line-height: 80px;
 }
 header a {
     color: white;
+    line-height: 80px;
 }
 #s1 {
     background-color: lightseagreen;
