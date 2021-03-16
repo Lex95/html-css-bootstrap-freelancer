@@ -3,14 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+body > * {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+section {
+    padding: 30px 0;
+}
 header {
     background-color: darkslategray;
     color: white;
     height: 80px;
     line-height: 80px;
-}
-header h3 {
-    float: left;
 }
 header a {
     color: white;
@@ -18,29 +27,22 @@ header a {
 #s1 {
     background-color: lightseagreen;
     color: white;
-    text-align: center;
 }
 #s1 img {
     width: 200px;
 }
-#s2 {
-    text-align: center;
-}
 #s2 img {
     width: 100%;
+    margin-bottom: 30px;
 }
 #s3 {
     background-color: lightseagreen;
     color: white;
 }
-#s3 h2, #s3 button {
-    text-align: center;
-}
-#s4 h2 {
-    text-align: center;
-}
 #s4 input{
     width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
 }
 #s5 {
     background-color: rgb(58,84,109);
@@ -50,4 +52,5 @@ footer {
     background-color: darkslategray;
     color: white;
     height: 80px;
+    line-height: 80px;
 }
