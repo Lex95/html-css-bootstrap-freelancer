@@ -12,14 +12,7 @@ header {
 header h3 {
     float: left;
 }
-nav ul {
-    float: right;
-}
-nav li{
-    display: inline-block;
-    margin: 0 10px;
-}
-nav a {
+header a {
     color: white;
 }
 #s1 {
