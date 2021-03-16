@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: darkslategray;
+}
+nav {
+    height: 80px;
+}
+#s1 {
+    background-color: lightseagreen;
+    height: 500px;
+}
+#s2 {
+    height: 500px;
+}
+#s3 {
+    background-color: lightseagreen;
+    height: 500px;
+}
+#s4 {
+    height: 500px;
+}
+#s5 {
+    background-color: rgb(58,84,109);
+    height: 500px;
+}
+footer {
+    background-color: darkslategray;
+    height: 80px;
+}
