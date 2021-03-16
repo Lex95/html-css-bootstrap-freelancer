@@ -5,29 +5,56 @@
 }
 header {
     background-color: darkslategray;
-}
-nav {
+    color: white;
     height: 80px;
+    line-height: 80px;
+}
+header h3 {
+    float: left;
+}
+nav ul {
+    float: right;
+}
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+}
+nav a {
+    color: white;
 }
 #s1 {
     background-color: lightseagreen;
-    height: 500px;
+    color: white;
+    text-align: center;
+}
+#s1 img {
+    width: 200px;
 }
 #s2 {
-    height: 500px;
+    text-align: center;
+}
+#s2 img {
+    width: 100%;
 }
 #s3 {
     background-color: lightseagreen;
-    height: 500px;
+    color: white;
 }
-#s4 {
-    height: 500px;
+#s3 h2, #s3 button {
+    text-align: center;
+}
+#s4 h2 {
+    text-align: center;
+}
+#s4 input{
+    width: 100%;
 }
 #s5 {
     background-color: rgb(58,84,109);
-    height: 500px;
+    color: white;
 }
 footer {
     background-color: darkslategray;
+    color: white;
     height: 80px;
 }
