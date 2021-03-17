@@ -50,10 +50,14 @@ section {
     background-color: lightseagreen;
 }
 
-#s4 input{
-    width: 100%;
+.form-my-theme{
     border: none;
+    border-radius: 0;
     border-bottom: 1px solid lightgray;
+    box-shadow: none;
+}
+.high {
+    height: 50px;
 }
 footer {
     background-color: darkslategray;
