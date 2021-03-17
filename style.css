@@ -72,6 +72,19 @@ footer {
 #s5 {
     background-color: rgb(58,84,109);
 }
+.anchor-btn {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.anchor-btn img {
+    width: 20px;
+}
 #s6 {
     height: 80px;
     line-height: 80px;
