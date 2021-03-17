@@ -20,12 +20,9 @@ section {
 }
 .navbar-my-theme button {
     border-color: white;
+    color: white;
 }
-.navbar-my-theme .icon-bar {
-    border-color: white;
-}
-#s1 {
-    background-color: lightseagreen;
+.text-white {
     color: white;
 }
 #s1 img {
@@ -35,10 +32,24 @@ section {
     width: 100%;
     margin-bottom: 30px;
 }
-#s3 {
-    background-color: lightseagreen;
-    color: white;
+.star-interline {
+    font-size: 30px;
 }
+.starline {
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    transform: translateY(-300%);
+    border-radius: 2px;
+    background-color: black;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-green {
+    background-color: lightseagreen;
+}
+
 #s4 input{
     width: 100%;
     border: none;
