@@ -6,9 +6,11 @@ section {
     margin-bottom: 0;
     border-radius: 0;
 }
+/* dovevo modificare anche gli hover di bootstrap per la nav */
 .navbar-my-theme a {
     color: white;
 }
+/* potevo mettere text-white nelle classi dell'anchor e del button */
 .navbar-my-theme button {
     border-color: white;
     color: white;
@@ -25,6 +27,7 @@ section {
 #img-section img {
     width: 100%;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 .star-interline {
     font-size: 30px;
@@ -34,8 +37,10 @@ section {
     height: 4px;
     width: 100px;
     transform: translateY(-300%);
+    /* position relative non va ¯\_(ツ)_/¯ */
     border-radius: 2px;
     background-color: black;
+    /* per accorciarla a seconda della vw o uso una max-width percentuale o faccio una media query */
 }
 .bg-white {
     background-color: white;
@@ -64,6 +69,7 @@ section {
     border-color: white;
     margin-top: 30px;
 }
+/* anche qui potevo mettere text-white per risparmiare righe */
 .my-b2 {
     color: white;
     background-color: lightseagreen;
