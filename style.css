@@ -32,12 +32,13 @@ section {
 .star-interline {
     font-size: 30px;
 }
+.star-interline > * {
+    vertical-align: middle;
+}
 .starline {
     display: inline-block;
     height: 4px;
     width: 100px;
-    transform: translateY(-300%);
-    /* position relative non va ¯\_(ツ)_/¯ */
     border-radius: 2px;
     background-color: black;
     /* per accorciarla a seconda della vw o uso una max-width percentuale o faccio una media query */
